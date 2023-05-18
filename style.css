@@ -13,10 +13,11 @@ body {
 /* HEADER */
 
 header {
-    padding: 20px;
+    padding: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /* position: fixed; */
 }
 
 header h1 {
@@ -28,6 +29,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Applying font and css to top nav bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,6 +42,7 @@ header nav ul {
     list-style-type: none;
 }
 
+/* Applies to 3 nav items: SEO, Online Rep Mngmt and Social Med. Mrktg */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -59,13 +62,14 @@ p {
     font-size: 16px;
 }
 
-/* HERO DIV WITH BACKGROUND IMAGE */
+/* MAIN PHOTO DIV WITH BACKGROUND IMAGE */
 
-.hero {
+/* Applies to large image on main page */
+.main-photo {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./digital-marketing-meeting.jpg");
+    /* background-image: url("./digital-marketing-meeting.jpg"); */
     background-size: cover;
     background-position: center;
 }
