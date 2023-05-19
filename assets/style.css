@@ -1,4 +1,4 @@
-/* GENERAL STYLES */
+/* STYLING */
 
 * {
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* HEADER */
+/* HEADER SECTION */
 
 header {
     padding: 15px;
@@ -29,7 +29,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Applying font and css to top nav bar */
+/* APPLYING FONT AND CSS TO TOP NAV BAR */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -42,7 +42,8 @@ header nav ul {
     list-style-type: none;
 }
 
-/* Applies to 3 nav items: SEO, Online Rep Mngmt and Social Med. Mrktg */
+/* APPLES TO 3 NAV ITEMS:SEO, ONLINE REP MNGMT, SOCIAL MEDIA MARKETING */
+
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -62,9 +63,8 @@ p {
     font-size: 16px;
 }
 
-/* MAIN PHOTO DIV WITH BACKGROUND IMAGE */
 
-/* Applies to large image on main page */
+/* APPLIES TO LARGE IMAGE ON MAIN PAGE */
 .main-photo {
     height: 800px;
     width: 100%;
@@ -74,7 +74,7 @@ p {
     background-position: center;
 }
 
-/* FLOATS */
+/* POSITIONING / FLOATS */
 
 .float-left {
     float: left;
@@ -123,9 +123,9 @@ main {
     max-width: 150px;
 }
 
-/* SERVICES SECTIONS */
+/* FEATURES SECTIONS (SEO, SMM,  ONLINE REP MNGMT */
 
-.service {
+.feature {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -134,11 +134,11 @@ main {
     color: #ffffff;
 }
 
-.service img {
+.feature img {
     max-height: 200px;
 }
 
-.service h2 {
+.feature h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
